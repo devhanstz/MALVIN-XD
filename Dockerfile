@@ -5,7 +5,7 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     rm -rf /var/lib/apt/lists/*
 USER node
-RUN git clone https://github.com/devhanstz/MALVIN-XD.git /home/node/kinghansmd
+RUN git clone https://github.com/devhanstz/KEITH-MD.git /home/node/kinghansmd
 WORKDIR /home/node/kinghansmd
 RUN chmod -R 777 /home/node/kinghansmd/
 RUN yarn install --network-concurrency 1
